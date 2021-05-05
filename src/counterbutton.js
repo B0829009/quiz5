@@ -17,7 +17,7 @@ class CounterButton extends React.Component
   render()
   {
     var text=this.state.counter;
-    return(<Button onClick={this.handleClick}>你點了 {text} 次</Button>);
+    return(<Button variant="contained" color="primary" onClick={this.handleClick}>你點了 {text} 次</Button>);
   }
 }
 
